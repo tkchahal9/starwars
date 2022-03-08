@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Star Wars</title>
+</head>
+<body>
+<div id="destiny-app">
+    <div v-for="card in cards" class="card blue" v-bind:class="card.color">
+        <img v-bind:src="card.img" alt="char image">
+
+        <img src="https://swdestinydb.com/bundles/cards/en/01/01038.jpg"/>
+
+        <div class="health">{{card.health}}</div>
+        <div class="rarity rare">
+            <div v-if="card.rarity == true" class="rare">{{card.setNumber}}</div>
+            <div v-else class="legendary">
+                {{card.setNumber}}
+            </div>
+        </div>
+        <div class="name">{{card.name}}</div>
+        <div class="affl villain">
+            {{card.affl}}
+        </div><
+        <div class="affl hero">
+            {{card.affl}}
+        </div>
+
+    </div>
+</div>
+<div id="destiny-app">
+    <div v-for="card in cards" class="card blue" v-bind:class="card.color">
+        <img v-bind:src="card.img" alt="char image">
+
+        <img src="http://images-cdn.fantasyflightgames.com/filer_public/3b/15/3b1513ab-1bf2-46f9-93ec-9fb0246e567b/sws17_main.png"/>
+
+        <div class="health">{{card.health}}</div>
+        <div class="rarity rare">
+            <div v-if="card.rarity == true" class="rare">{{card.setNumber}}</div>
+            <div v-else class="legendary">
+                {{card.setNumber}}
+            </div>
+        </div>
+        <div class="name">{{card.name}}</div>
+        <div class="affl villain">
+            {{card.affl}}
+        </div><
+        <div class="affl hero">
+            {{card.affl}}
+        </div>
+
+    </div>
+</div>
+<div id="destiny-app">
+    <div v-for="card in cards" class="card blue" v-bind:class="card.color">
+        <img v-bind:src="card.img" alt="char image">
+
+        <img src="https://i.pinimg.com/originals/67/fe/ca/67feca5ed7040713e386d568860701a8.jpg"/>
+
+        <div class="health">{{card.health}}</div>
+        <div class="rarity rare">
+            <div v-if="card.rarity == true" class="rare">{{card.setNumber}}</div>
+            <div v-else class="legendary">
+                {{card.setNumber}}
+            </div>
+        </div>
+        <div class="name">{{card.name}}</div>
+        <div class="affl villain">
+            {{card.affl}}
+        </div><
+        <div class="affl hero">
+            {{card.affl}}
+        </div>
+
+    </div>
+</div>
+<div id="destiny-app">
+    <div v-for="card in cards" class="card blue" v-bind:class="card.color">
+        <img v-bind:src="card.img" alt="char image">
+
+        <img src="http://images-cdn.fantasyflightgames.com/filer_public/70/2d/702dba51-4b9f-46db-ad74-36216b9fdbe9/swd13_preview2.jpg"/>
+
+        <div class="health">{{card.health}}</div>
+        <div class="rarity rare">
+            <div v-if="card.rarity == true" class="rare">{{card.setNumber}}</div>
+            <div v-else class="legendary">
+                {{card.setNumber}}
+            </div>
+        </div>
+        <div class="name">{{card.name}}</div>
+        <div class="affl villain">
+            {{card.affl}}
+        </div><
+        <div class="affl hero">
+            {{card.affl}}
+        </div>
+
+    </div>
+</div>
+<script src="star.js"></script>
+<script type='text/javascript' src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+'></script>
+<link rel="stylesheet" type="text/css" href="destiny.css">
+</body>
+</html>
